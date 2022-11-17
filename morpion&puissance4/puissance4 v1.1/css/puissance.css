@@ -1,0 +1,35 @@
+/* Définition du board*/
+body{
+    background-color: #7f541d;
+    text-align: center;
+}
+table {
+    margin: auto;
+    border: 3px solid black;
+    background-color: blue
+    
+}
+
+td {
+    margin: auto;
+    border: 1px;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    background-color: #7f541d;
+    border-radius: 40%;
+}
+
+tr {
+    margin: auto;
+    border: 0px solid black;
+    height: 75px;
+    background-color: blue;
+}
+
+.player {
+    border-radius: 40%;
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+}
